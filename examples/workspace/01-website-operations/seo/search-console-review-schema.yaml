@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "metrics": [
+    "clicks",
+    "impressions",
+    "ctr",
+    "average_position"
+  ],
+  "dimensions": [
+    "query",
+    "page",
+    "country",
+    "device"
+  ],
+  "sparse_data": "observation_only"
+}

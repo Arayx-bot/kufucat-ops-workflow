@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "tools": {
+    "filesystem_read": {
+      "kind": "builtin",
+      "mutates": false
+    },
+    "filesystem_write": {
+      "kind": "builtin",
+      "mutates": true
+    },
+    "local_tests": {
+      "kind": "local_command",
+      "mutates": "temporary_artifacts_only"
+    }
+  }
+}

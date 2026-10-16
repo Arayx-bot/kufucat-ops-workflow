@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "classes": {
+    "standard": {
+      "context": "task_required",
+      "retries": 2,
+      "parallel_workers": 1
+    }
+  }
+}

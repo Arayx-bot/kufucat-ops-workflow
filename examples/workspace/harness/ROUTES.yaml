@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "context_sources": {
+    "state": "harness/STATE.yaml",
+    "rules": "harness/RULES.md",
+    "product_facts": "knowledge/PRODUCT_FACTS.md",
+    "asset_registry": "assets/registry.yaml"
+  },
+  "routes": {
+    "engineering": {
+      "required_context": [
+        "state",
+        "rules",
+        "product_facts",
+        "asset_registry"
+      ],
+      "allowed_tools": [
+        "filesystem_read",
+        "filesystem_write",
+        "local_tests"
+      ],
+      "preferred_workflow": null,
+      "acceptance": [
+        "scoped_diff_reviewed",
+        "local_tests_pass"
+      ],
+      "budget_class": "standard"
+    },
+    "seo": {
+      "required_context": [
+        "state",
+        "rules",
+        "product_facts",
+        "asset_registry"
+      ],
+      "allowed_tools": [
+        "filesystem_read",
+        "filesystem_write",
+        "local_tests"
+      ],
+      "preferred_workflow": null,
+      "acceptance": [
+        "scoped_diff_reviewed",
+        "local_tests_pass"
+      ],
+      "budget_class": "standard"
+    }
+  }
+}

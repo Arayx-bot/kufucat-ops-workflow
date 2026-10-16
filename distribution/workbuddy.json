@@ -1,0 +1,6 @@
+{
+  "description_zh": "项目工作流与Shopify维护的可移植入口；使用者自供业务配置，外部动作单独确认。",
+  "description_en": "kufucat-ops portable workflow; see README for dependencies and verified scope.",
+  "version": "0.1.0",
+  "author": "Arayx-bot"
+}

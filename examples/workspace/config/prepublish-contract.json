@@ -1,0 +1,16 @@
+{
+  "contract_version": "UNCONFIGURED",
+  "platform_capabilities": {},
+  "rule_registry": [],
+  "action_gates": {
+    "finalize_draft": {
+      "phases": []
+    },
+    "schedule": {
+      "phases": []
+    },
+    "live_prepublish": {
+      "phases": []
+    }
+  }
+}
